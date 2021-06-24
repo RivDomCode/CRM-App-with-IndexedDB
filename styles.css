@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&family=Ubuntu&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0;
+}
+
+.left-side {
+  background: #569D93;
+  height: 100vh;
+  color: #dcdcdc;
+  border-right: 2px solid #F0F0F0;
+  position: relative;
+}
+
+.title {
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.left-paragraph {
+  font-size: 18px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.item {
+  color: #F0F0F0;
+  text-decoration: none;
+  font-weight: bolder;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  width: 63%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.item:hover {
+  background: #2F5D62;
+  color: #F0F0F0;
+  border-radius: 15px;
+}
+
+.social-media {
+  position: absolute;
+  bottom: 5%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.right-side {
+  background: #E5FFFA;
+  height: 100vh;
+}
+
+.clients-container {
+  width: 85%;
+  margin: auto;
+  background: white;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  box-shadow: 0px 3px 3px #dcdcdc;
+}
+
+.clients-container > span {
+  padding: 15px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,92 @@
+//IMPORTS
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&family=Ubuntu&display=swap');
+//COLORS
+
+$lGreen: #2F5D62;
+$dGreen: #569D93;
+$lBlue: #E5FFFA;
+$lgrey: #dcdcdc;
+$grey: #F0F0F0;
+
+//FONTS
+
+$fontBeb: "Bebas Neue", Arial, Helvetica, sans-serif;
+$fontRoB: "Roboto", Arial, Helvetica, sans-serif;
+$fontUbu: "Ubuntu", Arial, Helvetica, sans-serif;
+$bigSize: 24px;
+$smallSize: 18px;
+
+//GENERAL STYLES
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+
+}
+
+
+//LEFT MENU STYLES
+
+.left-side{
+    background: $dGreen;
+    height: 100vh;
+    color:$lgrey;
+    border-right: 2px solid $grey;
+    position: relative;
+}
+
+.title{
+    font-family:$fontUbu;
+    font-weight: bolder;
+}
+
+.left-paragraph{
+    font-size: $smallSize;
+    font-family: $fontRoB;
+}
+
+.item{
+    color: $grey;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: $fontRoB;
+    width: 63%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.item:hover{
+    background: $lGreen;
+    color: $grey;
+    border-radius: 15px;
+}
+
+.social-media{
+    position: absolute;
+    bottom: 5%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+//RIGHT MAIN STYLES
+
+.right-side{
+    background: $lBlue;
+    height: 100vh;
+}
+
+.clients-container{
+    width: 85%;
+    margin: auto;
+    background: white;
+    font-family: $fontRoB;
+    box-shadow: 0px 3px 3px $lgrey;
+}
+
+.clients-container > span{
+    padding: 15px;
+    font-weight: bold;
+}
