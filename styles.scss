@@ -5,16 +5,17 @@
 $lGreen: #2F5D62;
 $dGreen: #569D93;
 $lBlue: #E5FFFA;
-$lgrey: #dcdcdc;
+$lgrey: #f5f5f5;
 $grey: #F0F0F0;
+$black: #2d3436;
 
 //FONTS
 
 $fontBeb: "Bebas Neue", Arial, Helvetica, sans-serif;
 $fontRoB: "Roboto", Arial, Helvetica, sans-serif;
 $fontUbu: "Ubuntu", Arial, Helvetica, sans-serif;
-$bigSize: 24px;
-$smallSize: 18px;
+$bigSize: 20px;
+$smallSize: 16px;
 
 //GENERAL STYLES
 
@@ -31,15 +32,15 @@ $smallSize: 18px;
 
 .left-side{
     background: $dGreen;
-    height: 100vh;
+    height: 110vh;
     color:$lgrey;
-    border-right: 2px solid $grey;
-    position: relative;
 }
 
 .title{
     font-family:$fontUbu;
     font-weight: bolder;
+    text-shadow: 0 1px 2px $lgrey;
+    margin: auto;
 }
 
 .left-paragraph{
@@ -55,6 +56,7 @@ $smallSize: 18px;
     width: 63%;
     margin: auto;
     margin-top: 5%;
+    font-size: $bigSize;
 }
 
 .item:hover{
@@ -64,29 +66,61 @@ $smallSize: 18px;
 }
 
 .social-media{
-    position: absolute;
-    bottom: 5%;
-    margin: auto;
+    margin-top: 50vh;
+    width: 100%;
+}
+
+.RivDom{
+    display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+    width: 50%;
+    font-size: 16px;
+
 }
 
 //RIGHT MAIN STYLES
 
 .right-side{
-    background: $lBlue;
+
+    background: white;
     height: 100vh;
+    opacity: 0.89;
 }
 
 .clients-container{
     width: 85%;
     margin: auto;
-    background: white;
+    background: $lgrey;
     font-family: $fontRoB;
-    box-shadow: 0px 3px 3px $lgrey;
+    box-shadow: 0px 5px 10px $black;
+    border: 1px solid lightgrey;
 }
 
 .clients-container > span{
     padding: 15px;
     font-weight: bold;
+}
+
+
+//NEW CLENT FORM//@at-root
+
+.client{
+    width: 45%;
+    margin: auto;
+    margin-top: 8%;
+    padding: 3%;
+    font-family: $fontRoB;
+    background: $lgrey;
+    color: $black;
+    font-weight: bolder;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px $black;
+}
+
+.add-button{
+    background: $dGreen;
+    color: $grey;
+    font-weight: bolder;
 }
